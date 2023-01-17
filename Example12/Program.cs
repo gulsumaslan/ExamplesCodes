@@ -6,13 +6,13 @@ namespace Example12
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("vize notu giriniz");
-            int vize = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("final notu giriniz");
+            Console.WriteLine("Enter visa note");
+            int visa= Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter final grade");
             int final = Convert.ToInt32(Console.ReadLine());
 
-            double ortalama = vize * 0.30 + final * 0.70;
-            Console.WriteLine(ortalama);
+            double ortalama = visa * 0.30 + final * 0.70;
+            Console.WriteLine(average);
 
         }
     }
