@@ -6,18 +6,18 @@ namespace Example1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Birinci sayıyı giriniz");
-            int sayi1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("İkincii sayıyı giriniz");
-            int sayi2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the first number");
+            int number1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the second number");
+            int number2 = Convert.ToInt32(Console.ReadLine());
 
-            if (sayi1>sayi1)
+            if (number1>number1)
             {
-                Console.WriteLine("Büyük olan sayi:" + sayi1);
+                Console.WriteLine("the big number:" + number1);
             }
             else
             {
-                Console.WriteLine("Büyük olan sayi:"+sayi2);
+                Console.WriteLine("the big number:"+number2);
             }
         }
     }
