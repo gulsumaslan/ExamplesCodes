@@ -6,13 +6,13 @@ namespace Example13
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("yükseklik giriniz");
+            Console.WriteLine("enter height");
             int h = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("taban uzunluğu giriniz");
+            Console.WriteLine("enter floor length");
             int t= Convert.ToInt32(Console.ReadLine());
 
 
-            Console.WriteLine(" üçgenin alanı:"+(h+t)/2);
+            Console.WriteLine(" area of triangle:"+(h+t)/2);
 
         }
     }
