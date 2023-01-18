@@ -6,9 +6,9 @@ namespace Example9
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("fahrenhait derecesini gir");
+            Console.WriteLine("enter degrees fahrenhait");
             double fahrenheit = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("celcius derecesini gir");
+            Console.WriteLine("enter celcius degree");
             double celsius = Convert.ToDouble(Console.ReadLine());
 
            
