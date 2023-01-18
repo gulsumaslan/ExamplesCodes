@@ -6,15 +6,15 @@ namespace Example8
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bir sayi giriniz ");
+            Console.WriteLine("Enter a number ");
             int N = Convert.ToInt32(Console.ReadLine());
 
-            int faktoriyel = 1;
+            int factorial = 1;
             for (int i = 1; i <= N; i++)
             {
-                faktoriyel *= i;
+                factorial *= i;
             }
-            Console.WriteLine(faktoriyel);
+            Console.WriteLine(factorial);
         }
     }
 }
