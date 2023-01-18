@@ -6,10 +6,10 @@ namespace Third
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("kelime giriniz");
+            Console.WriteLine("enter a word");
             string n = Console.ReadLine();
 
-            Console.WriteLine("kelimenin sondan başa doğru yazımı");
+            Console.WriteLine("spelling of the word");
 
             for (int i = n.Length-1; i >= 0; --i)
             {
