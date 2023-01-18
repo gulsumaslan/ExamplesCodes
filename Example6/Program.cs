@@ -6,11 +6,11 @@ namespace Example6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bir fiyat giriniz");
-            double fiyat = Convert.ToDouble(Console.ReadLine());
-            double kdv = fiyat * 0.18;
-            double toplam = fiyat +kdv;
-            Console.WriteLine(toplam.ToString());
+            Console.WriteLine("Enter a price");
+            double price = Convert.ToDouble(Console.ReadLine());
+            double kdv = price * 0.18;
+            double total = fiyat +kdv;
+            Console.WriteLine(total.ToString());
         }
     }
 }
