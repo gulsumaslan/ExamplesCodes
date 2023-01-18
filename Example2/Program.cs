@@ -6,23 +6,23 @@ namespace Example2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Vize notunuzu giriniz");
-            int vize = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter your visa note");
+            int visa = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("final notunuzu giriniz");
+            Console.WriteLine("enter your final grade");
             int final = Convert.ToInt32(Console.ReadLine());
 
-            double ortalama = vize * 0.40 + final * 0.60;
+            double average = visa * 0.40 + final * 0.60;
 
-            if (vize>=50 && final>50)
+            if (visa>=50 && final>50)
             {
-                Console.WriteLine(ortalama);
-                Console.WriteLine( "sınavı geçtiniz");
+                Console.WriteLine(average);
+                Console.WriteLine( "you passed the exam");
             }
             else
             {
-                Console.WriteLine(ortalama);
-                Console.WriteLine("kaldınız");
+                Console.WriteLine(average);
+                Console.WriteLine("you stayed");
             }
 
         }
