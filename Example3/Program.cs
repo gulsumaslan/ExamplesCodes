@@ -6,20 +6,20 @@ namespace Example3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("bir sayi giriniz");
-            int sayi = Convert.ToInt32(Console.ReadLine());
-            if (sayi>0)
+            Console.WriteLine("enter a number");
+            int number= Convert.ToInt32(Console.ReadLine());
+            if (number>0)
             {
-                Console.WriteLine("sayı pozitiftir");
+                Console.WriteLine("number is positive");
 
             }
-            else if (sayi<0)
+            else if (number<0)
             {
-                Console.WriteLine("sayi negatiftir");
+                Console.WriteLine("number is negative");
             }
             else
             {
-                Console.WriteLine("sayı 0 dır");
+                Console.WriteLine("number is 0");
             }
         }
     }
