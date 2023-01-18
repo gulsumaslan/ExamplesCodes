@@ -9,7 +9,7 @@ namespace Example6
             Console.WriteLine("Enter a price");
             double price = Convert.ToDouble(Console.ReadLine());
             double kdv = price * 0.18;
-            double total = fiyat +kdv;
+            double total = price +kdv;
             Console.WriteLine(total.ToString());
         }
     }
