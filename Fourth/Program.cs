@@ -7,28 +7,28 @@ namespace Fourth
         static void Main(string[] args)
         {
             
-            Console.WriteLine("bir cümle giriniz");
-            string cümle = Console.ReadLine();
-            //string harfler = "ABCÇDEFGĞHİIJKLMNOÖPRSŞTUÜVYZ"+ "abcçdefgğhiıjklmnoöprsştuüvyz";
+            Console.WriteLine("enter a sentence");
+            string sentence = Console.ReadLine();
+            //string letters = "ABCÇDEFGĞHİIJKLMNOÖPRSŞTUÜVYZ"+ "abcçdefgğhiıjklmnoöprsştuüvyz";
             int character = 0;
 
-            string[] kelimeler = cümle.Split(' ');
-            char[] ch = cümle.ToCharArray();
-            Console.WriteLine("Kelime Sayısı :" + kelimeler.Length);
+            string[] words = cümle.Split(' ');
+            char[] ch = sentence.ToCharArray();
+            Console.WriteLine("Word Count :" + words.Length);
             
-            foreach (string kelime in kelimeler)
+            foreach (string word in words)
             {
-                Console.WriteLine(kelime);
+                Console.WriteLine(word);
             }
             
-            foreach (var harf in ch)
+            foreach (var letter in ch)
             {
-                if (char.IsLetter(harf))
+                if (char.IsLetter(letter))
                 {
                     character++;
                 }
             }
-            Console.WriteLine("harf sayısı:" +character);
+            Console.WriteLine("letter numbers:" +character);
         }
     }
 }
