@@ -6,16 +6,16 @@ namespace Example15
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bir sayi giriniz");
-            int sayi = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter a number");
+            int number = Convert.ToInt32(Console.ReadLine());
 
-            if (sayi>0)
+            if (number>0)
             {
-                Console.WriteLine("sayı pozitiftir"+sayi);
+                Console.WriteLine("number is positive"+number);
             }
             else
             {
-                Console.WriteLine("sayi negatiftir"+sayi);
+                Console.WriteLine("number is negative"+number);
             }
         }
     }
