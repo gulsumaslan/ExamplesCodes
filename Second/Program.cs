@@ -6,9 +6,9 @@ namespace Second
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Birinci sayiyi girinz");
+            Console.WriteLine("Enter the first number");
             int n = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("İkinci sayiyi giriniz");
+            Console.WriteLine("Enter the second number");
             int m = Convert.ToInt32(Console.ReadLine());
 
 
