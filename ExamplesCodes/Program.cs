@@ -6,12 +6,12 @@ namespace ExamplesCodes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bir sayi giriniz");
+            Console.WriteLine("Enter a number");
             int n = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 0; i <n; i++)
             {
-               // Console.Write("{0}. sayıyı girin : ", i);
+               // Console.Write("{0}. enter the number : ", i);
                // int sayi= Convert.ToInt32(Console.ReadLine());
                 if (i % 2 == 0)
                 {
